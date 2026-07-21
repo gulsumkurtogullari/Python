@@ -1,0 +1,34 @@
+#integer
+
+yas=20
+ögrenciSayisi=5500
+sicaklik=29
+print(yas)
+print(ögrenciSayisi)
+print(sicaklik)
+
+a=10
+b=20
+toplam=a+b
+print(toplam)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+
+
+
+
+#ürün sayısı var ve her ürünün fiyatı var. toplam fiyatı hesaplayın
+ürünSayisi=8
+birimFiyat=15
+toplamFiyat=ürünSayisi*birimFiyat
+print(toplamFiyat)
+
+
+#zam uygulaması yapalım. 
+birimFiyat=1500
+yuzde=int(input("Zam yüzdesini giriniz: "))
+print("Zam yüzdesi: ", yuzde)
+zamMiktari=birimFiyat*yuzde/100
+print("Zam miktarı: ", zamMiktari)
